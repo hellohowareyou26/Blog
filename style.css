@@ -9,6 +9,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'Kalnia', serif;
+   max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 article {
   color: #fafafa;
@@ -21,7 +24,7 @@ article {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
   padding: 15px;
   display: flex;
-  justify-content:center;
+  justify-content:center; 
 }
 header {
   display: flex;
@@ -34,8 +37,7 @@ header {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
 }
 aside {
-  float:left;
-  padding: 20px;
+  float:left; 
   background: rgba(255, 255, 255, 0.33);
   backdrop-filter: blur(40px) saturate(292%);
   -webkit-backdrop-filter: blur(40px) saturate(292%);
@@ -47,6 +49,7 @@ aside {
 a:link {
   color: whitesmoke;
   text-decoration: none;
+  background-color: aquamarine; 
 }
 a:visited {
   color: aquamarine;
