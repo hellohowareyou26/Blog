@@ -9,7 +9,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'Kalnia', serif;
-
 }
 article {
   color: #fafafa;
@@ -23,7 +22,7 @@ article {
   padding: 15px;
   display: flex;
   justify-content:center;
-  overflow-x: inherit;
+  overflow-x: scroll;
 }
 header {
   display: flex;
